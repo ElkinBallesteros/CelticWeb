@@ -1,0 +1,58 @@
+.container {
+    /* background-image: url("./Images/commingbackgroud.png?w=1920"); */
+    width: 100vw;
+    height: 97vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    
+}
+
+.homeContainer{
+    margin-top: -13em;
+}
+
+  /* Custom, iPhone Retina */
+  @media only screen and (min-width : 360px) {
+    .homeContainer{
+        margin-top: 5em;
+        height: 15em;
+    }
+  }
+
+    /* Custom, iPhone Retina */
+    @media only screen and (min-width : 390px) {
+        .homeContainer{
+            margin-top: 6em;
+            height: 17em;
+        }
+      }
+    
+  /* Extra Small Devices, Phones */
+  @media only screen and (min-width : 480px) {
+    .homeContainer{
+        margin-top: -10em;
+    }
+  }
+
+  /* Small Devices, Tablets */
+  @media only screen and (min-width : 768px) {
+    .homeContainer{
+        margin-top: 6em;
+        height: 30em;
+    }
+  }
+
+  /* Medium Devices, Desktops */
+  @media only screen and (min-width : 992px) {
+    .homeContainer{
+        margin-top: 6em;
+        height: 40em;
+    }
+  }
+
+  /* Large Devices, Wide Screens */
+  @media only screen and (min-width : 1200px) {
+    .homeContainer{
+        margin-top: 6em;
+    }
+  }

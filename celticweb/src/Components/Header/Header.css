@@ -1,0 +1,22 @@
+.navbar-logo{
+    width: 130px;
+    height: 3.5em;
+}
+.navbar-container{
+    height: 70px;
+}
+
+@media screen and (min-device-width : 320px)
+ and (max-device-width : 480px) {
+    .navbar-logo{
+        margin-top: -20px;
+        margin-left: -44px;
+    }
+}
+
+@media screen and (max-width : 765px){
+    .navbar-logo{
+        margin-top: -20px;
+        margin-left: -44px;
+    }
+}

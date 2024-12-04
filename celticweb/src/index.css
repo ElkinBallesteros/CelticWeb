@@ -1,0 +1,34 @@
+body {
+  /* background-image: url("././Components/Home/Images/commingbackgroud2.jpg"); */
+  background-repeat: no-repeat;  
+  background-position: center center;
+  background-size: 100%;
+  height: 100vh;
+  width: 100vw;
+}
+
+.text-gray{
+  color: #1f1f1f;
+}
+/* @media (min-width: 580px ) {
+  body {
+    background-image: url("././Components/Home/Images/commingbackgroudMpbile.jpg");
+    background-repeat: no-repeat;  
+    background-position: center center;
+    background-size: 100%;
+    height: 100vh;
+    width: 100vw;
+  }
+} */
+
+@media screen and (max-width:767px) {
+  body {
+    background-image: url("././Components/Home/Images/commingbackgroudMobile.jpg");
+    background: linear-gradient(#8a8a8a, #1f1f1f);
+    background-repeat: no-repeat;  
+    background-position: center center;
+    background-size: 100%;
+    height: 100vh;
+    width: 100vw;
+  }
+}
